@@ -130,7 +130,7 @@
 		"ypos"			"39"
 		"zpos"			"0"
 		"wide"			"65"
-		"tall"			"52"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 130"

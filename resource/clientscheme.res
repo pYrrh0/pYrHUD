@@ -2460,6 +2460,37 @@ Scheme
                 "antialias" "1"
             }
         }
+        
+        BaronN8
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+        
+        BaronN10
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+        
+        BaronN12
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+    
     
     	BaronN18
 		{
