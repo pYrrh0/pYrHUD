@@ -1,5 +1,41 @@
 "Resource/HudLayout.res"
 {
+    //Edit the below for FOG's Crosshairs.  The font is included.
+    
+    	"fogCrosshair"
+	{
+		"controlname"	  "CExLabel"
+		"fieldname"	      "fogCrosshair"
+		
+		"visible"	"1"			//0 to make invisible
+		"enabled"	"1"
+
+		"xpos"		"c-16"		//place laterally
+		"ypos"		"c-16"		//place vertically
+		"zpos"		"2"
+		
+		"wide"		"33"		//minute placement adjustments laterally
+		"tall"		"34"		//minute placement adjustments vertically
+
+		"font"		"fogCrosshair"		
+
+		"labeltext"	"y"
+        
+		// Change the "y" to represent the crosshair you want displayed. Use Crosshairs.jpg to choose.
+		
+		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
+		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
+		        
+		"textAlignment"	"center"
+		"fgcolor"	    "255 255 0 255"
+		
+        // The above deals with crosshair flashing upon successful enemy hit.
+		// Remember to change FGcolor to the same value in HudAnimations_tf.txt
+		// Otherwise the crosshair will change back to the default white color after
+		// flashing upon giving damage.
+    }
+
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -17,7 +53,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c143"	
-		"ypos"	"c142"	
+		"ypos"	"c154"	
 		"wide"	"200"
 		"tall"	"120"
 	}
@@ -414,10 +450,19 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	HudDamageIndicator
-	{
-
-	}
+	    HudDamageIndicator
+    {
+        "fieldName" "HudDamageIndicator"
+        "visible" "1"
+        "enabled" "1"
+        "MinimumWidth" "5"
+        "MaximumWidth" "5"
+        "StartRadius" "70"
+        "EndRadius" "70"
+        "MinimumHeight" "120"
+        "MaximumHeight" "120"
+        "MinimumTime" "3" 
+    }
 
 	HudCommentary
 	{

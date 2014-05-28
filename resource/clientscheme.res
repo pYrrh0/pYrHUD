@@ -26,7 +26,7 @@ Scheme
 		"G_Shadow"				"0 0 0 220" // Shadow color
 		"G_LightShadow"			"0 0 0 110"
 		"G_Dying"				"212 0 0 230"
-		"G_Heal"				"255 255 128 255" // Heal color
+		"G_Heal"				"20 210 255 255" // Heal color
 		"G_Hit"					"240 78 0 255" // Hit color
 		"G_Brown"				"49 44 41 255"
 		"G_Yellow"				"235 220 50 255"
@@ -41,16 +41,16 @@ Scheme
 		"G_CurrencyBad"			"255 60 60 255"
 		"G_TransparentMenuBG"	"46 43 42 252"
 		
-		"G_HealthValue"			"255 255 202 255" // Health value color
-		"G_AmmoClipValue"		"255 255 187 255" // Ammo in clip value color
+		"G_HealthValue"			"207 207 207 255" // Health value color
+		"G_AmmoClipValue"		"192 255 183 255" // Ammo in clip value color
 		"G_AmmoReserveValue"	"216 253 130 255" // Ammo in reserve value color
-		"G_MetalValue"			"255 255 206 255" // Metal value color
+		"G_MetalValue"			"225 225 225 255" // Metal value color
 		"G_HeadsValue"			"235 220 50 255" // Heads value color
 		"G_HeadsLabel"			"255 255 255 255" // Heads value label color
 		"G_KillstreakValue"		"250 168 107 255" // Killstreak value color
 		
 		"G_Killfeed_Base"		"69 69 69 230" // Killfeed Base
-		"G_Killfeed_Local"		"245 250 190 210" // Killfeed Local
+		"G_Killfeed_Local"		"255 255 128 210" // Killfeed Local
 		
 		"G_MetalBg"				"60 60 60 220"
 		"G_BrownBg"				"46 43 42 220"
@@ -65,7 +65,7 @@ Scheme
 		"G_DarkRed"			"151 51 51 255"
 		"G_DarkerRed"		"151 51 51 255"
 		"G_Footer"			"45 41 37 255"
-		"G_FooterLine"		"151 51 51 255"  // G_DarkRed
+		"G_FooterLine"		"151 51 51 255"
     
     
 		// Default Valve Colours
@@ -2450,7 +2450,7 @@ Scheme
 
 	// All below are my own definitions of all added fonts in the resource directory.
 	
-        "Crosshair"          //Crosshair Font
+        "fogCrosshair"    //Crosshair Font, be sure to read the readme to find out how to change!
         {
             "1"
             {
@@ -2458,6 +2458,7 @@ Scheme
                 "tall"      "28"
                 "additive"  "0"
                 "antialias" "1"
+                "outline"   "1"
             }
         }
         
@@ -2490,7 +2491,46 @@ Scheme
 				"antialias" "1"
 			}
 		}
-    
+        
+        BaronN13
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"13"
+				"antialias" "1"
+			}
+		}
+        
+        BaronN14
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+        
+        BaronN15
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"15"
+				"antialias" "1"
+			}
+		}
+        
+        BaronN16
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
     
     	BaronN18
 		{
@@ -2730,7 +2770,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio"
+				"name"		"Opificio"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -2740,7 +2780,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio"
+				"name"		"Opificio"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -2750,7 +2790,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio"
+				"name"		"Opificio"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -2760,7 +2800,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio"
+				"name"		"Opificio"
 				"tall"		"32"
 				"antialias" "1"
 			}
@@ -2770,7 +2810,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio Bold"
+				"name"		"Opificio Bold"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -2780,7 +2820,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio Bold"
+				"name"		"Opificio Bold"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -2790,7 +2830,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio Bold"
+				"name"		"Opificio Bold"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -2800,7 +2840,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio Bold"
+				"name"		"Opificio Bold"
 				"tall"		"32"
 				"antialias" "1"
 			}
@@ -2810,7 +2850,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio Rounded"
+				"name"		"Opificio Rounded"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -2820,7 +2860,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio Rounded"
+				"name"		"Opificio Rounded"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -2830,7 +2870,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio Rounded"
+				"name"		"Opificio Rounded"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -2840,7 +2880,7 @@ Scheme
         {
 			"1"
 			{
-				"name"		"Opficio Rounded"
+				"name"		"Opificio Rounded"
 				"tall"		"32"
 				"antialias" "1"
 			}
@@ -2856,12 +2896,62 @@ Scheme
 			}
 		}
         
+        Sansa
+        {
+            "1"
+			{
+				"name"		"Sansation Regular"
+				"antialias" "1"
+			}
+		}
+        
+        
         Sansation14
         {
 			"1"
 			{
 				"name"		"Sansation Regular"
 				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+        
+        Sansation12
+        {
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+        
+        Sansation11
+        {
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"11"
+				"antialias" "1"
+			}
+		}
+        
+        Sansation13
+        {
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"13"
+				"antialias" "1"
+			}
+		}
+        
+        Sansation10
+        {
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"10"
 				"antialias" "1"
 			}
 		}
@@ -2886,7 +2976,7 @@ Scheme
 			}
 		}        
         
-         SansationB18
+        SansationB18
         {
 			"1"
 			{
@@ -2966,66 +3056,718 @@ Scheme
 			}
 		}  
         
-        SFM48
-        {
-			"1"
-			{
-				"name"		"SF Movie Poster Condensed Bold"
-				"tall"		"48"
-				"antialias" "1"
-			}
-		}  
+        ////// Alpaca Solidify
         
-        SFM60
+        ALS18
         {
-			"1"
-			{
-				"name"		"SF Movie Poster Condensed Bold"
-				"tall"		"60"
-				"antialias" "1"
-			}
-		}  
+            "1"
+            {
+                "name"      "Alpaca Solidify"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        ALS20
+        {
+            "1"
+            {
+                "name"      "Alpaca Solidify"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+        ALS26
+        {
+            "1"
+            {
+                "name"      "Alpaca Solidify"
+                "tall"      "26"
+                "antialias" "1"
+            }
+        }
+        ALS32
+        {
+            "1"
+            {
+                "name"      "Alpaca Solidify"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        ALS40
+        {
+            "1"
+            {
+                "name"      "Alpaca Solidify"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
         
-        SF48
-        {
-			"1"
-			{
-				"name"		"SF Movie Poster Bold"
-				"tall"		"48"
-				"antialias" "1"
-			}
-		}  
+        ////// BlueHighwayD-Regular
         
-        SF60
+        BHDR10
         {
-			"1"
-			{
-				"name"		"SF Movie Poster Bold"
-				"tall"		"60"
-				"antialias" "1"
-			}
-		}  
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "10"
+                "antialias" "1"
+            }
+        }
+        BHDR11
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
+        BHDR12
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "12"
+                "antialias" "1"
+            }
+        }
+        BHDR13
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "13"
+                "antialias" "1"
+            }
+        }
+        BHDR14
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "14"
+                "antialias" "1"
+            }
+        }
+        BHDR16
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "16"
+                "antialias" "1"
+            }
+        }
+        BHDR18
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        BHDR20
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+        BHDR26
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "26"
+                "antialias" "1"
+            }
+        }
+        BHDR32
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        BHDR40
+        {
+            "1"
+            {
+                "name"      "BlueHighwayD-Regular"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
         
-        SFR48
-        {
-			"1"
-			{
-				"name"		"SF Movie Poster"
-				"tall"		"48"
-				"antialias" "1"
-			}
-		}  
+        //////  Blue Highway Regular
         
-        SFR60
+        BHR10
         {
-			"1"
-			{
-				"name"		"SF Movie Poster"
-				"tall"		"60"
-				"antialias" "1"
-			}
-		}         
-	}
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "10"
+                "antialias" "1"
+            }
+        }
+        BHR11
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
+        BHR12
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "12"
+                "antialias" "1"
+            }
+        }
+        BHR13
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "13"
+                "antialias" "1"
+            }
+        }
+        BHR14
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "14"
+                "antialias" "1"
+            }
+        }
+        BHR16
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "16"
+                "antialias" "1"
+            }
+        }
+        BHRS18
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "18"
+                "antialias" "1"
+                "outline"   "1"
+            }
+        }
+        BHR18
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        BHR20
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+        BHR26
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "26"
+                "antialias" "1"
+            }
+        }
+        BHR32
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        BHR40
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        
+        //////
+                
+        CR10
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "10"
+                "antialias" "1"
+            }
+        }
+        CR11
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
+        CR12
+        {
+            "1"
+            {
+                 "name"      "Comfortaa"
+                "tall"      "12"
+                "antialias" "1"
+            }
+        }
+        CR13
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "13"
+                "antialias" "1"
+            }
+        }
+        CR14
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "14"
+                "antialias" "1"
+            }
+        }
+        CR16
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "16"
+                "antialias" "1"
+            }
+        }
+        CR18
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        CR20
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+        CR26
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "26"
+                "antialias" "1"
+            }
+        }
+        CR32
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        CR40
+        {
+            "1"
+            {
+                "name"      "Comfortaa"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        
+        /////
+        
+        CB10
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "10"
+                "antialias" "1"
+            }
+        }
+        CB11
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
+        CB12
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "12"
+                "antialias" "1"
+            }
+        }
+        CB13
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "13"
+                "antialias" "1"
+            }
+        }
+        CB14
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "14"
+                "antialias" "1"
+            }
+        }
+        CB16
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "16"
+                "antialias" "1"
+            }
+        }
+        CB18
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        CB20
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+        CB26
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "26"
+                "antialias" "1"
+            }
+        }
+        CB32
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        CB40
+        {
+            "1"
+            {
+                "name"      "Comfortaa Bold"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        
+        //////
+        
+          HB10
+        {
+            "1"
+            {
+                "name"      "Homizio Bold"
+                "tall"      "10"
+                "antialias" "1"
+            }
+        }
+        
+        HB11
+        {
+            "1"
+            {
+                "name"      "Homizio Bold"
+                "tall"      "11"
+                "antialias" "1"
+            }
+        }
+        
+        HBS11
+        {
+            "1"
+            {
+                "name"      "Homizio Bold"
+                "tall"      "11"
+                "antialias" "1"
+                "outline"   "1"
+            }
+        }
+        
+          HB12
+        {
+            "1"
+            {
+                "name"      "Homizio Bold"
+                "tall"      "12"
+                "antialias" "1"
+            }
+        }
+        
+          HB40
+        {
+            "1"
+            {
+                "name"      "Homizio Bold"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        
+          HB32
+        {
+            "1"
+            {
+                "name"      "Homizio Bold"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        
+          HB18
+        {
+            "1"
+            {
+                "name"      "Homizio Bold"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        
+          HB20
+        {
+            "1"
+            {
+                "name"      "Homizio Bold"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+      
+        ////// 
+        
+        EA18
+        {
+            "1"
+            {
+                "name"      "Ever After"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        EA24
+        {
+            "1"
+            {
+                "name"      "Ever After"
+                "tall"      "24"
+                "antialias" "1"
+            }
+        }
+        EA36
+        {
+            "1"
+            {
+                "name"      "Ever After"
+                "tall"      "36"
+                "antialias" "1"
+            }
+        }
+        
+        QKR32
+        {
+            "1"
+            {
+                "name"      "QuicksandBook-Regular"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        QKR40
+        {
+            "1"
+            {
+                "name"      "QuicksandBook-Regular"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        QBR32
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        QBR40
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        
+        QDR26
+        {
+            "1"
+            {
+                "name"      "QuicksandDash-Regular"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        
+        QDR40
+        {
+            "1"
+            {
+                "name"      "QuicksandDash-Regular"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        
+        TDH40
+        {
+            "1"
+            {
+                "name"      "Tall Dark And Handsome Condensed"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        
+        //////
+        
+        HM10
+        {
+            "1"
+            {
+                "name"      "Homizio Medium"
+                "tall"      "10"
+                "antialias" "1"
+            }
+        }
+        
+        HM12
+        {
+            "1"
+            {
+                "name"      "Homizio Medium"
+                "tall"      "12"
+                "antialias" "1"
+            }
+        }
+        
+        HM40
+        {
+            "1"
+            {
+                "name"      "Homizio Medium"
+                "tall"      "40"
+                "antialias" "1"
+            }
+        }
+        
+        HM32
+        {
+            "1"
+            {
+                "name"      "Homizio Medium"
+                "tall"      "32"
+                "antialias" "1"
+            }
+        }
+        
+        HM18
+        {
+            "1"
+            {
+                "name"      "Homizio Medium"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        
+        HM20
+        {
+            "1"
+            {
+                "name"      "Homizio Medium"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }        
+        
+        
+        ///////
+        
+    }
 	
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -4991,20 +5733,76 @@ Scheme
 			"font" 	"resource/fonts/Sansation_Regular.ttf"
 			"name"	"Sansation Regular"
 		}
-		"19"
-		{
-			"font" 	"resource/fonts/SFMoviePoster.ttf"
-			"name"	"SF Movie Poster"
-		}
-		"20"
-		{
-			"font" 	"resource/fonts/SFMoviePosterBold.ttf"
-			"name"	"SF Movie Poster Bold"
-		}
-		"21"
-		{
-			"font" 	"resource/fonts/SFMoviePosterCondensedBold.ttf"
-			"name"	"SF Movie Poster Condensed Bold"
-		}
-	}
+        "19"
+        {
+            "font"  "resource/fonts/AlpacaS.ttf"
+            "name"  "Alpaca Solidify"
+        }
+        "20"
+        {
+            "font"  "resource/fonts/bluehbd.ttf"
+            "name"  "BlueHighway-Bold"
+        }
+        "21"
+        {
+            "font"  "resource/fonts/bluehd.ttf"
+            "name"  "BlueHighwayD-Regular"
+        }
+        "22"
+        {
+            "font"  "resource/fonts/bluehrg.ttf"
+            "name"  "BlueHighway-Regular"
+        }
+        "23"
+        {
+            "font"  "resource/fonts/bold.ttf"
+            "name"  "Homizio Bold"
+        }
+        "24"
+        {
+            "font"  "resource/fonts/Comfortaa-Bold.ttf"
+            "name"  "Comfortaa Bold"
+        }
+        "25"
+        {
+            "font"  "resource/fonts/Comfortaa-Regular.ttf"
+            "name"  "Comfortaa"
+        }
+        "26"
+        {
+            "font"  "resource/fonts/Everafter.ttf"
+            "name"  "Ever After"
+        }
+        "27"
+        {
+            "font"  "resource/fonts/medium.ttf"
+            "name"  "Homizio Medium"
+        }
+        "28"
+        {
+            "font"  "resource/fonts/Quicksand_Bold.otf"
+            "name"  "QuicksandBold-Regular"
+        }
+        "29"
+        {
+            "font"  "resource/fonts/Quicksand_Book.otf"
+            "name"  "QuicksandBook-Regular"
+        }
+        "30"
+        {
+            "font"  "resource/fonts/Quicksand_Dash.otf"
+            "name"  "QuicksandDash-Regular"
+        }
+        "31"
+        {
+            "font"  "resource/fonts/regular.ttf"
+            "name"  "Homizio"
+        }
+        "32"
+        {
+            "font"  "resource/fonts/talldark.ttf"
+            "name"  "Tall Dark And Handsome Condensed"
+        }
+        
+    }
 }
