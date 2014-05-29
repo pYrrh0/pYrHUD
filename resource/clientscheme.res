@@ -2462,6 +2462,27 @@ Scheme
             }
         }
         
+        BaronN4
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"4"
+				"antialias" "1"
+			}
+		}
+        
+        BaronN6
+		{
+			"1"
+			{
+				"name"		"BaronNeue"
+				"tall"		"6"
+				"antialias" "1"
+			}
+		}
+        
+        
         BaronN8
 		{
 			"1"
@@ -3635,6 +3656,46 @@ Scheme
             }
         }
         
+        QKR20
+        {
+            "1"
+            {
+                "name"      "QuicksandBook-Regular"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+        
+        QKR24
+        {
+            "1"
+            {
+                "name"      "QuicksandBook-Regular"
+                "tall"      "24"
+                "antialias" "1"
+            }
+        }
+        
+        QKR28
+        {
+            "1"
+            {
+                "name"      "QuicksandBook-Regular"
+                "tall"      "28"
+                "antialias" "1"
+            }
+        }
+        
+        QKR30
+        {
+            "1"
+            {
+                "name"      "QuicksandBook-Regular"
+                "tall"      "30"
+                "antialias" "1"
+            }
+        }
+        
         QKR32
         {
             "1"
@@ -3653,6 +3714,47 @@ Scheme
                 "antialias" "1"
             }
         }
+        
+        QBR18
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "18"
+                "antialias" "1"
+            }
+        }
+        
+        QBR20
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+        
+        QBR22
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "22"
+                "antialias" "1"
+            }
+        }
+        
+        QBR28
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "28"
+                "antialias" "1"
+            }
+        }
+        
         QBR32
         {
             "1"

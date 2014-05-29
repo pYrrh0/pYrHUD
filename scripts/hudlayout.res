@@ -10,11 +10,11 @@
 		"visible"	"1"			//0 to make invisible
 		"enabled"	"1"
 
-		"xpos"		"c-16"		//place laterally
-		"ypos"		"c-16"		//place vertically
+		"xpos"		"c-17"		//place laterally
+		"ypos"		"c-17"		//place vertically
 		"zpos"		"2"
 		
-		"wide"		"33"		//minute placement adjustments laterally
+		"wide"		"34"		//minute placement adjustments laterally
 		"tall"		"34"		//minute placement adjustments vertically
 
 		"font"		"fogCrosshair"		
@@ -72,18 +72,15 @@
 	HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"xpos"	"c-100"
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"160"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
-	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}	
 
 	HudItemEffectMeter
@@ -119,16 +116,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"r515"
+		"ypos"			"r43"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"175"
+		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -138,16 +130,11 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"r515"
+		"ypos"			"r52"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"175"
+		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -405,7 +392,7 @@
 		"ypos"	"440"
 		"wide"	"120"
 		"tall"  "40"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
 		
 		"PaintBackgroundType"	"2"
@@ -521,31 +508,28 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "12"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
-		"wide"	 "628"
-		"tall"	 "468"
+		"xpos"	 "r575"	
+		"ypos"	 "119"	
+        "wide"   "580"
+        "tall"   "468"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"MaxDeathNotices" "6"
+        "IconScale"       "0.35"
+        "LineHeight"      "12"
+        "LineSpacing"     "1"
+        "CornerRadius"    "0"
+        "RightJustify"    "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
-		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"TextFont"		      "BHDR11"
+        
+		"TeamBlue"		      "G_TeamBlue"
+		"TeamRed"		      "G_DarkRed"
+		"IconColor"		      "HudBlack"
+		"LocalPlayerColor"	  "G_LightGrey"
+        
+        "BaseBackgroundColor"   "G_Shadow"      
+        "LocalBackgroundColor"  "G_Grey"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
 
 	HudVehicle
@@ -1059,13 +1043,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r30"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"xpos"			"r430"
+		"ypos"			"r237"
+		"wide"			"150"
 		"tall"			"50"
 	}	
 
@@ -1400,9 +1380,12 @@
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"src_corner_height"	"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 }
