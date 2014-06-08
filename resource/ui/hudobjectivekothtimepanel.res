@@ -29,10 +29,10 @@
 			"labelText"		"0:00"
 		}	
         
-        "TimePanelBack"
+        "TimePanelBack1"
 		{
 		      "ControlName"	"ImagePanel"
-		      "fieldName"		"TimePanelBack"
+		      "fieldName"		"TimePanelBack1"
 		      "xpos"			"45"
 		      "ypos"			"1"
 		      "zpos"			"0"
@@ -72,10 +72,10 @@
 			"labelText"		"0:00"
 		}	
         
-        "TimePanelBack"
+        "TimePanelBack2"
 		{
 		      "ControlName"	"ImagePanel"
-		      "fieldName"		"TimePanelBack"
+		      "fieldName"		"TimePanelBack2"
 		      "xpos"			"45"
 		      "ypos"			"1"
 		      "zpos"			"0"

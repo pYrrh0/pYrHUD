@@ -105,6 +105,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 210"
+		"border"		"Rounded"
 	}
     
     

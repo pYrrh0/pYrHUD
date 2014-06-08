@@ -3238,6 +3238,16 @@ Scheme
                 "antialias" "1"
             }
         }
+		BHRS10
+        {
+            "1"
+            {
+                "name"      "BlueHighway-Regular"
+                "tall"      "10"
+                "antialias" "1"
+				"outline" "1"
+            }
+        }
         BHR11
         {
             "1"
@@ -3714,6 +3724,36 @@ Scheme
                 "antialias" "1"
             }
         }
+		
+		 QBR10
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "10"
+                "antialias" "1"
+            }
+        }
+		
+		 QBR12
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "12"
+                "antialias" "1"
+            }
+        }
+		
+		 QBR14
+        {
+            "1"
+            {
+                "name"      "QuicksandBold-Regular"
+                "tall"      "14"
+                "antialias" "1"
+            }
+        }
         
         QBR18
         {
@@ -3794,6 +3834,45 @@ Scheme
             }
         }
         
+		TDH12
+        {
+            "1"
+            {
+                "name"      "Tall Dark And Handsome Condensed"
+                "tall"      "12"
+                "antialias" "1"
+            }
+        }
+		
+		TDH20
+        {
+            "1"
+            {
+                "name"      "Tall Dark And Handsome Condensed"
+                "tall"      "20"
+                "antialias" "1"
+            }
+        }
+		
+		TDH24
+        {
+            "1"
+            {
+                "name"      "Tall Dark And Handsome Condensed"
+                "tall"      "24"
+                "antialias" "1"
+            }
+        }
+		
+		TDH36
+        {
+            "1"
+            {
+                "name"      "Tall Dark And Handsome Condensed"
+                "tall"      "36"
+                "antialias" "1"
+            }
+        }
         TDH40
         {
             "1"
@@ -5605,6 +5684,14 @@ Scheme
 					"offset" "0 0"
 				}
 			}
+			
+			
+		}
+		
+		Rounded
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		ReplayFatLineBorderRedBGOpaque

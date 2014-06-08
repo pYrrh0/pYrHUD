@@ -79,8 +79,8 @@
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"16"
-		"red_active_xpos"			"106"
+		"blue_active_xpos"			"2"
+		"red_active_xpos"			"68"
 	}	
 
 	HudItemEffectMeter
@@ -89,11 +89,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -230,9 +226,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"76"
-		"xpos_minmode"			"61"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -260,8 +254,6 @@
 		"enabled"	"1"
 		"xpos"		"10"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
 		"wide"		"500"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
@@ -270,15 +262,13 @@
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
+		"ypos"		"370"
+		"wide"	 	"280"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -293,14 +283,12 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
+		"ypos"		"450"
+		"wide"	 	"200"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
-		"x_offset" "20"
+		"x_offset" "0"
 		"y_offset" "20"
 	}
 	
@@ -310,10 +298,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"340"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -331,8 +318,6 @@
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
 		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -344,12 +329,8 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
+		"xpos"		"30"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -520,15 +501,15 @@
         "CornerRadius"    "0"
         "RightJustify"    "1"	// If 1, draw notices from the right
 		
-		"TextFont"		      "BHDR11"
+		"TextFont"		      "BHDR10"
         
-		"TeamBlue"		      "G_TeamBlue"
+		"TeamBlue"		      "77 86 202 255"
 		"TeamRed"		      "G_DarkRed"
-		"IconColor"		      "HudBlack"
-		"LocalPlayerColor"	  "G_LightGrey"
+		"IconColor"		      "G_Hit"
+		"LocalPlayerColor"	  "249 249 127 255"
         
         "BaseBackgroundColor"   "G_Shadow"      
-        "LocalBackgroundColor"  "G_Grey"
+        "LocalBackgroundColor"  "200 200 200 150"
 
 	}
 
@@ -843,8 +824,8 @@
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
-		"xpos"					"0"
-		"ypos"					"410"
+		"xpos"					"56"
+		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"200"
 		"visible"				"1"
@@ -852,7 +833,6 @@
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
@@ -864,7 +844,7 @@
 		"tall"					"90"
 		"visible"				"1"
 		"enabled"				"1"
-		"icon_space"			"2"
+		"icon_space"			"1"
 	}
 	
 	HUDAutoAim
@@ -882,7 +862,7 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
+		"xpos"					"350"
 		"ypos"					"215"
 		"wide"					"300"
 		"tall"					"300"
@@ -1106,7 +1086,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-15"
-		"ypos"					"442"
+		"ypos"					"472"
 		"wide"					"30"
 		"tall"					"30"
 		"zpos"					"99"
